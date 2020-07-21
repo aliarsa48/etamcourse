@@ -27,7 +27,7 @@ class HomeController extends Controller
     public function index()
     {
         $kursus = DB::table('courses')->where('status', '=', 'active')->whereRaw('kuotaterisi < kuota')->get();
-        return view('/welcome',['courses' => $kursus]);
+        return view('/welcome',compact('kursus'));
     }
 
     public function kursus()

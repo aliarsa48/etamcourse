@@ -67,7 +67,7 @@
           <div class="col-12">
               <div class="owl-slide-3 owl-carousel">
 
-                @foreach($errors as $k)
+                @foreach($kursus as $k)
                   <div class="course-1-item">
                     <figure class="thumnail">
                       <a href="/course/{{$k->id}}"><img src="/courses/thumbnails/{{$k->thumbnail}}" alt="Image" class="img-fluid"></a>
