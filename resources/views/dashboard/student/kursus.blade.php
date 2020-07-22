@@ -40,7 +40,7 @@
                                 </p>
                             </div>
                             <div class="product-buttons">
-                                <a href="/student/courses/{{$k->nomor}}">
+                                <a href="/student/courses/{{$k->nomor}}/module">
                                     <button type="button" class="button-default cart-btn" style="width: 100%;">Buka Kelas</button>
                                 </a>
                             </div>

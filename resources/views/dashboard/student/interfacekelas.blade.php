@@ -17,7 +17,7 @@
                                 <h2>Link Pertemuan ke {{$kelas->pertemuanke}}/{{$kelas->jumlahpertemuan}}:</h2>
                             </div>
                             <div class="single-review-st-text">
-                                <a target="_blank" href="//{{$kelas->link}}"><button class="btn btn-md btn-success">Buka Kelas</button></a>
+                                <a target="_blank" href="/student/courses/{{$kelas->id}}/module"><button class="btn btn-md btn-success">Buka Kelas</button></a>
                                 @endif
                             </div>
                             @if($kelas->link=="")

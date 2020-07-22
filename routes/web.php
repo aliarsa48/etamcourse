@@ -76,6 +76,11 @@ Route::middleware(['teacher'])->group(function () {
 	Route::get('/teacher/courses/{id}/edit','CoursesController@edit')->middleware('teacher');
 	Route::put('/teacher/courses/{id}/update','CoursesController@update');
 	Route::get('/teacher/courses/{id}/delete', 'CoursesController@delete');
+
+	// Modul
+	Route::get('/teacher/courses/{id}/modules','ModuleController@index');
+	Route::get('/teacher/courses/{id}/modules/add','ModuleController@add');
+	Route::put('/addmodule','ModuleController@adding');
 });
 
 Route::middleware(['student'])->group(function () {
@@ -86,6 +91,10 @@ Route::middleware(['student'])->group(function () {
 	Route::put('/student/payment/{id}/confirm','StudentController@payconfirm');
 	Route::get('/student/payment/{id}/cancel','StudentController@cancel');
 	Route::get('/student/courses/{id}','StudentDashboardController@kelas');
+
+	//modul
+	Route::get('/student/courses/{id}/module','ModuleController@firstpage');
+	Route::get('/student/courses/{id}/module/{idbab}','ModuleController@openmodule');
 });
 
 // kategori

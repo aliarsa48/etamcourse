@@ -9,9 +9,12 @@
     <!-- favicon
         ============================================ -->
     <link rel="shortcut icon" type="/dashboard/image/x-icon" href="/dashboard/img/favicon.ico">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/850984f961.js" crossorigin="anonymous"></script>
     <!-- Google Fonts
         ============================================ -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
     <link rel="stylesheet" href="/dashboard/css/bootstrap.min.css"> 
@@ -88,7 +91,7 @@
           
                         <li>
                             <a href="{{'/teacher'}}">
-                                   <span class="educate-icon educate-home icon-wrap"></span>
+                                   <span class="educate-icon icon-wrap"><i class="fas fa-home"></i></span>
                                    <span class="mini-click-non">Dashboard</span>
                                 </a>
                         </li>                       
