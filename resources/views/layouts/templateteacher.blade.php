@@ -81,9 +81,9 @@
     <!-- Start Left menu area -->
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
-            <div class="sidebar-header">
-                <a href="/"><img class="main-logo" src="/dashboard/img/logo/logo2.png" alt="" /></a>
-                <strong><a href="/r"><img src="/dashboard/img/logo/logosn.png" alt="" /></a></strong>
+            <div class="sidebar-header" style="margin-top: 10px;">
+                <a href="/"><img class="main-logo" src="/images/logo2.png" alt="" /></a>
+                <strong><a href="/r"><img src="/images/logosn.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">

@@ -33,6 +33,31 @@
 
 
 </head>
+<style>
+  .textbiru {
+    color: #183661;
+  }
+  .textbiru:hover {
+    color: #ff6c00;
+  }
+  .biru {
+    background: #183661;
+  }
+  .biru:hover {
+    background: #ff6c00;
+  }
+  .oren {
+    background: #ff6c00;
+  }
+
+  .textoren {
+    color: #ff6c00;
+  }
+
+  .borderbiru {
+    border-color: #183661;
+  }
+</style>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -52,20 +77,20 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-9 d-none d-lg-block">
-            <a href="#" class="small mr-3"><span class="icon-question-circle-o mr-2"></span> Mempunyai Pertanyaan?</a> 
-            <a href="#" class="small mr-3"><span class="icon-phone2 mr-2"></span> 081352409624</a> 
-            <a href="mailto:aliarsa48@gmail.com?subject=Re:132" target="_blank" class="small mr-3"><span class="icon-envelope-o mr-2"></span>aliarsa@gmail.com</a> 
+            <a href="#" class="small mr-3 textbiru"><span class="icon-question-circle-o mr-2"></span> Mempunyai Pertanyaan?</a> 
+            <a href="#" class="small mr-3 textbiru"><span class="icon-phone2 mr-2"></span> 081352409624</a> 
+            <a href="mailto:aliarsa48@gmail.com?subject=Re:132" target="_blank" class="small mr-3 textbiru"><span class="icon-envelope-o mr-2"></span>aliarsa@gmail.com</a> 
           </div>
           <div class="col-lg-3 text-right">
 
             @guest
-                            <a href="{{'/login'}}" class="small mr-3"><span class="icon-unlock-alt"></span> Masuk</a>
+                            <a href="{{'/login'}}" class="small mr-3 textbiru"><span class="icon-unlock-alt"></span> Masuk</a>
                             @if (Route::has('register'))
-                                <a href="{{'/register'}}" class="small btn btn-primary px-4 py-2 rounded-0"><span class="icon-users"></span> Daftar </a>
+                                <a href="{{'/register'}}" class="small btn btn-primary px-4 py-2 rounded-0 biru borderbiru"><span class="icon-users"></span> Daftar </a>
                             @endif
                         @else
                             <div class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle textbiru" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     <b>{{ Auth::user()->name }}</b> <span class="caret"></span>
                                 </a>
 
@@ -107,7 +132,7 @@
         <div class="d-flex align-items-center">
           <div class="site-logo">
             <a href="{{'/'}}" class="d-block">
-              <img src="/images/logo2.png" alt="Image" class="img-fluid">
+              <img src="/images/coursenesia.png" alt="Image" class="img-fluid">
             </a>
           </div>
           <div class="mr-auto">
@@ -134,7 +159,7 @@
                 <!--</li>-->
                 
                 <li>
-                  <a href="http://kelascode.aliarsa.my.id/about" class="nav-link text-left">Tentang</a>
+                  <a href="/about" class="nav-link text-left">Tentang</a>
                 </li>
                 
                 <li>
@@ -166,8 +191,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <p class="mb-4"><img src="/images/logo2.png" alt="Image" class="img-fluid"></p>
-            <p>Ilmu pengetahuan itu ada dimana saja, dan tidak selalu ada di sekolah, asalkan kamu ingin belajar, maka kamu bisa mempelajari segala hal baru yang belum pernah kamu temukan. KELASCODE merupakan salah satu kelas online untuk mendapatkan ilmu pengetahuan dan mengembangkan kemampuan kalian</p>  
+            <p class="mb-4"><img src="/images/coursenesiaori.png" width="60%" alt="Image" class="img-fluid"></p>
+            <p>Ilmu pengetahuan itu ada dimana saja, dan tidak selalu ada di sekolah, asalkan kamu ingin belajar, maka kamu bisa mempelajari segala hal baru yang belum pernah kamu temukan. COURSENESIA merupakan salah satu kelas online untuk mendapatkan ilmu pengetahuan dan mengembangkan kemampuan kalian</p>  
             <p><a href="#">Belajarlah lagi</a></p>
           </div>
 
@@ -206,7 +231,7 @@
             <div class="copyright">
                 <p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> KELASCODE  |  Ali Arsa dan Fahrul Fahrozi  |  <i  aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> COURSENESIA  |  Ali Arsa dan Fahrul Fahrozi  |  <i  aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank" >Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
             </div>

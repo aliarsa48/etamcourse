@@ -37,11 +37,18 @@
                                 <label for="pword">Kata Sandi</label>
                                 <input type="password" id="pword" name="password" class="form-control form-control-lg">
                             </div>
+                            <div class="col-md-12">
+                                @if(count($errors) > 0)
+                                    <div class="alert alert-danger">
+                                        E-mail/Kata Sandi Salah
+                                    </div>
+                                @endif
+                            </div>
                         </div>
                         
                         <div class="row">
                             <div class="col-4">
-                                <button type="submit" value="Log In" class="btn btn-primary btn-lg px-5">{{ __('Masuk') }}</button>
+                                <button type="submit" value="Log In" class="btn btn-primary btn-lg px-5 biru">{{ __('Masuk') }}</button>
                             </div>
                             @if (Route::has('password.request'))
                                 

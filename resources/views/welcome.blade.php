@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<head><title>KELASCODE</title></head>
+<head><title>COURSENESIA</title></head>
 @section('content')
 
     <div class="hero-slide owl-carousel site-blocks-cover">
@@ -7,7 +7,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-              <h1>Selamat Datang di KELASCODE</h1>
+              <h1>Selamat Datang di COURSENESIA</h1>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@
         <div class="row justify-content-center text-center">
           <div class="col-lg-4 mb-5">
             <h2 class="section-title-underline">
-              <span>Mengapa KELASCODE</span>
+              <span>Mengapa COURSENESIA</span>
             </h2>
           </div>
         </div>
@@ -72,7 +72,7 @@
                     <figure class="thumnail">
                       <a href="/course/{{$k->id}}"><img src="/courses/thumbnails/{{$k->thumbnail}}" alt="Image" class="img-fluid"></a>
                       <div class="price">Rp. {{number_format($k->price,0,'','.')}}</div>
-                      <div class="category"><h3 style="color: black;"><b>{{$k->title}}</b></h3></div>  
+                      <div class="category"><h3 style="color: white;"><b>{{$k->title}}</b></h3></div>  
                     </figure>
                     <div class="course-1-content pb-4">
                       <div class="rating text-center mb-3">
@@ -83,7 +83,7 @@
                         <span class="icon-star2 text-warning"></span>
                       </div>
                       <h2>{{$k->description}}</h2>
-                      <p><a href="/course/{{$k->id}}" class="btn btn-primary rounded-0 px-4">Detail Kelas</a></p>
+                      <p><a href="/course/{{$k->id}}" class="btn btn-primary rounded-0 px-4 oren borderoren">Detail Kelas</a></p>
                     </div>
                   </div>
                 @endforeach
@@ -105,11 +105,11 @@
         <div class="row">
           <div class="col-lg-4">
             <h2 class="section-title-underline style-2">
-              <span>Tentang KELASCODE</span>
+              <span>Tentang COURSENESIA</span>
             </h2>
           </div>
           <div class="col-lg-8">
-            <p class="lead">KELASCODE adalah adalah platform belajar online yang dikembangkan khusus untuk membantu kamu belajar coding dan lain lain lebih terarah</p>
+            <p class="lead">COURSENESIA adalah adalah platform belajar online yang dikembangkan khusus untuk membantu kamu belajar coding dan lain lain lebih terarah</p>
             <p><a href="{{'about'}}">Read more</a></p>
           </div>
         </div>
@@ -122,7 +122,7 @@
         <div class="row mb-5">
           <div class="col-lg-8">
             <h2 class="section-title-underline">
-              <span>Apa kata mereka tentang KELASCODE?</span>
+              <span>Apa kata mereka tentang COURSENESIA?</span>
             </h2>
           </div>
         </div>
@@ -139,7 +139,7 @@
               </div>
             </div>
             <div>
-              <p>&ldquo;Jujur dari pengalaman saya sendiri. Setelah saya mengenal KELASCODE dan ikut program belajarnya, saya ngerasa buang-buang duit ikut pelatihan programming di tempat lain selama ini. Setelah belajar di KELASCODE saya terarah banget belajar programmingnya!&rdquo;</p>
+              <p>&ldquo;Jujur dari pengalaman saya sendiri. Setelah saya mengenal COURSENESIA dan ikut program belajarnya, saya ngerasa buang-buang duit ikut pelatihan programming di tempat lain selama ini. Setelah belajar di COURSENESIA saya terarah banget belajar programmingnya!&rdquo;</p>
             </div>
           </div>
 
@@ -152,7 +152,7 @@
               </div>
             </div>
             <div>
-              <p>Pengalaman belajar di kelas online KELASCODE sangat baik dan mudah dipahami berkat khualitas video yang bagus dari segi grapic & audio!</p>
+              <p>Pengalaman belajar di kelas online COURSENESIA sangat baik dan mudah dipahami berkat khualitas video yang bagus dari segi grapic & audio!</p>
             </div>
           </div>
 

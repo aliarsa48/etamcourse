@@ -109,7 +109,7 @@ class ModuleController extends Controller
         //$idbab = Module::where('id','=',$idbab)->get();
         //$module = Module::where('id','=',$idbab)->get();
         //return json_decode($judulbab[0]->id);
-        return redirect('/student/courses/'.$course->id.'/module/'.$f);;
+        return redirect('/student/courses/'.$course->id.'/module/'.$f);
     }
 
     public function openmodule($id, $idbab) {

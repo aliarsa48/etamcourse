@@ -74,9 +74,9 @@
     <!-- Start Left menu area -->
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
-            <div class="sidebar-header">
-                <a href="/"><img class="main-logo" src="/dashboard/img/logo/logo2.png" alt="" /></a>
-                <strong><a href="/"><img src="/dashboard/img/logo/logosn.png" alt="" /></a></strong>
+            <div class="sidebar-header" style="margin-top: 10px;">
+                <a href="/" ><img class="main-logo" src="/images/coursenesia.png" alt="" /></a>
+                <strong><a href="/"><img src="/images/coursenesia1.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
