@@ -6,16 +6,17 @@ use Illuminate\Http\Request;
 use Auth;
 use App\Module;
 use App\Course;
+use App\Http\Controllers\Redirect;
 
 class ModuleController extends Controller
 {
     public function index($id) {
         // $userid = Auth::user()->id;
         // $module = Module::where('course',$userid)
-        $id = Course::find($id);
-        $module = Module::get();
-        //return json_encode($module);
-        return view('/pages/module',compact('id','module'))->with('no',1);
+        $course = Course::find($id);
+        $module = Module::where('course_id',$id)->get();
+        //return json_decode($module);
+        return view('/pages/module',compact('course','module'))->with('no',1);
     }
 
     public function add($id) {
@@ -42,9 +43,62 @@ class ModuleController extends Controller
 			'filemodule' => $nama_file,
             'judul' => $request->judul,
             'course_id' => $request->course_id
-		]);
+        ]);
+        
+        //return json_decode($request->course_id);
 
-      	return redirect('/teacher/courses');
+      	return redirect('/teacher/courses/'.$request->course_id.'/modules');;
+    }
+
+    public function view($id,$idbab) {
+        $course = Course::find($id);
+        $module = Module::firstWhere('id',$idbab);
+        //return json_encode($module);
+        return view('dashboard/teacher/viewmodule',compact('course','module')); 
+    }
+
+    public function edit($id,$idbab) {
+        $course = Course::find($id);
+        $module = Module::where('id',$idbab)->first();
+
+        return view('/dashboard/teacher/editmodule',compact('course','module'));
+    }
+
+    public function editing($id,Request $request) {
+        //dd($request->all(), $id);
+        //return $request;
+        // $this->validate($request,[
+        //     'judul' => 'required',
+
+        // ]);
+
+        $idbab = Module::find($id);
+        $namafile = $idbab->filemodule;
+	    $idbab->judul = $request->judul;
+        
+        if($request->hasFile('filemodule')) {
+            // $image = $request->file('filemodule');
+            // $filename = $image->getClientOriginalName();
+            // $image->move(public_path('module'), $filename);
+            // $idbab->image = $request->file('filemodule')->getClientOriginalName();
+            $file = $request->file('filemodule');
+		    $nama_file = time()."_".$file->getClientOriginalName();
+		    $tujuan_upload = 'module';
+            $file->move($tujuan_upload,$nama_file);
+            $idbab->filemodule = $nama_file;
+        } else {
+            
+        }
+
+        $idbab->save();
+        //return json_decode($idbab);
+        return redirect('/teacher/courses/'.$idbab->course_id.'/modules/'.$idbab->id);
+    }
+
+    public function delete($id,$idbab){
+        $delete = Module::find($idbab);
+        $delete->delete();
+        return redirect('/teacher/courses/'.$delete->course_id.'/modules/');
     }
 
     public function firstpage($id) {

@@ -22,7 +22,7 @@
 									      <th scope="col">Harga</th>
                                           <th scope="col">Jumlah Murid</th>
                                           <th scope="col">Pertemuan</th>
-                                          <th scope="col">Link Pertemuan</th>
+                                          <th scope="col">Modul</th>
 									      <th scope="col">Status</th>
 									      <th scope="col" width="20%">Aksi</th>
 									    </tr>
@@ -35,13 +35,9 @@
                                                 <td>{{$k->kuotaterisi}}/{{$k->kuota}}</td>
                                                 <td>{{$k->pertemuanke}}/{{$k->jumlahpertemuan}}</td>
                                                 <td>
-                                                    @if($k->link=='')
-                                                        <!-- <button type="button" class="btn btn-custon-rounded-four btn-danger btn-xs" disabled>Belum Aktif</button> -->
-                                                    @else
-                                                    <a href="//{{$k->link}}" target="_blank">
+                                                    <a href="/teacher/courses/{{$k->id}}/modules" target="_blank">
                                                         <button type="button" class="btn btn-custon-rounded-four btn-primary btn-xs">Buka</button>
                                                     </a>
-                                                    @endif
                                                 </td>
                                                 <td>
                                                 	@if($k->status =='active')

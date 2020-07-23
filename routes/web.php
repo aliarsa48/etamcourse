@@ -79,8 +79,12 @@ Route::middleware(['teacher'])->group(function () {
 
 	// Modul
 	Route::get('/teacher/courses/{id}/modules','ModuleController@index');
+	Route::get('/teacher/courses/{id}/modules/{idbab}','ModuleController@view');
 	Route::get('/teacher/courses/{id}/modules/add','ModuleController@add');
 	Route::put('/addmodule','ModuleController@adding');
+	Route::get('/teacher/courses/{id}/modules/{idbab}/edit','ModuleController@edit');
+	Route::put('/editmodule/{id}','ModuleController@editing');
+	Route::get('/teacher/courses/{id}/modules/{idbab}/delete','ModuleController@delete');
 });
 
 Route::middleware(['student'])->group(function () {
