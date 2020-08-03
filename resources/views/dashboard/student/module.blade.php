@@ -25,9 +25,9 @@
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" style="">
                         <div class="courses-inner">
-                            <a href="/student/courses/{{$course->id}}/module/{{$idbab[0]->id-1}}"><button class="btn btn-primary" style="margin-bottom: 5px; float: left">Bab Sebelumnya</button></a>
-                            <a href="/student/courses/{{$course->id}}/module/{{$idbab[0]->id+1}}"><button class="btn btn-primary" style="margin-bottom: 5px; float: right">Bab Selanjutnya</button></a>
-                            <iframe src="/module/{{$idbab[0]->filemodule}}" frameborder="0" style="height:450px; width: 100%"></iframe>
+                            <a href="/student/courses/{{$course->id}}/module/{{$z-1}}"><button class="btn btn-primary" style="margin-bottom: 5px; float: left">Bab Sebelumnya</button></a>
+                            <a href="/student/courses/{{$course->id}}/module/{{$z+1}}"><button class="btn btn-primary" style="margin-bottom: 5px; float: right">Bab Selanjutnya</button></a>
+                        <iframe src="/module/{{$pagebab[$i+1]['filemodule']}}" frameborder="0" style="height:450px; width: 100%"></iframe>
                         </div>
                     </div>
 

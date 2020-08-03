@@ -108,16 +108,18 @@ class ModuleController extends Controller
         //$idbab = $judulbab->id;
         //$idbab = Module::where('id','=',$idbab)->get();
         //$module = Module::where('id','=',$idbab)->get();
-        //return json_decode($judulbab[0]->id);
-        return redirect('/student/courses/'.$course->id.'/module/'.$f);
+        //return $array[2];
+        return redirect('/student/courses/'.$course->id.'/module/1');
     }
 
-    public function openmodule($id, $idbab) {
+    public function openmodule($id, $bab) {
         $course = Course::where('id','=',$id)->first();
         $judulbab = Module::where('course_id',$id)->get();
-        $idbab = Module::where('id','=',$idbab)->get();
-        //$module = Module::where('id','=',$idbab)->get();
-        //return json_decode($judulbab);
-        return view('/dashboard/student/module',compact('course','idbab','judulbab'))->with('no',1);
+        $pagebab = $judulbab->toArray();
+        $jumlahbab = count($pagebab);
+        $z = $bab;
+        $i = $bab-2;
+        // $index = $pagebab[$i]['id'];
+        return view('/dashboard/student/module',compact('course','judulbab','pagebab','jumlahbab','z','i'))->with('no',1);
     }
 }
