@@ -1,7 +1,7 @@
 @extends('layouts.templateteacher')
 
 @section('content')
-<title>{{$module->judul}} | KELASCODE</title>
+<title>{{$module->judul}} | DeKADE COURSE</title>
 <br>
 <!-- content -->
 		

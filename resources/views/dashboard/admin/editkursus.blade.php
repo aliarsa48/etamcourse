@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- content -->
-<title>Edit Kursus | KELASCODE</title>
+<title>Edit Kursus | DeKADE COURSE</title>
 		
 <div class="basic-form-area mg-b-15 mg-t-15">
     <div class="container-fluid">

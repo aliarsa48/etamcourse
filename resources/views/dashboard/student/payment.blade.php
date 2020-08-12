@@ -1,7 +1,7 @@
 @extends('layouts.templatestudent')
 
 @section('content')
-<title>Tagihan | KELASCODE</title>
+<title>Tagihan | DeKADE COURSE</title>
 <br>
 
 <div class="data-table-area mg-b-15">

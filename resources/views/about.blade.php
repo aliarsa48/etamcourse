@@ -1,13 +1,13 @@
 @extends('layouts.app')
-<head><title>Tentang | KELASCODE</title></head>
+<head><title>Tentang | DeKADE COURSE</title></head>
 @section('content')
 
   <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-7">
-              <h2 class="mb-0">Tentang KELASCODE</h2>
-              <p>KELASCODE adalah adalah platform belajar online yang dikembangkan khusus untuk membantu kamu belajar coding dan lain lain lebih terarah.</p>
+              <h2 class="mb-0">Tentang DeKADE COURSE</h2>
+              <p>DeKADE COURSE adalah adalah platform belajar online yang dikembangkan khusus untuk membantu kamu belajar coding dan lain lain lebih terarah.</p>
             </div>
           </div>
         </div>
@@ -26,11 +26,11 @@
             <div class="row">
               <div class="col-lg-4">
                 <h2 class="section-title-underline">
-                  <span>KELASCODE History</span>
+                  <span>DeKADE COURSE History</span>
                 </h2>
               </div>
               <div class="col-lg-4">
-                <p>KELASCODE di dirikan pada tahun 2020. KELASCODE berdiri untuk membantu pelajar menambah ilmu dan wawasan tanpa harus melalui sekolah dll, KELASCODE memudahan kan pelajar untuk belajar dirumah saja dll melewati Handphone dan laptop</p>
+                <p>DeKADE COURSE di dirikan pada tahun 2020. DeKADE COURSE berdiri untuk membantu pelajar menambah ilmu dan wawasan tanpa harus melalui sekolah dll, DeKADE COURSE memudahan kan pelajar untuk belajar dirumah saja dll melewati Handphone dan laptop</p>
               </div>
               <div class="col-lg-4">
                 <p></p>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-lg-5 ml-auto align-self-center">
                     <h2 class="section-title-underline mb-5">
-                        <span>Mengapa Harus Belajar Di KELASCODE</span>
+                        <span>Mengapa Harus Belajar Di DeKADE COURSE</span>
                     </h2>
                     <p>Penjelasan setiap materi step by step dan mudah dipahami,
 Pemateri Lulusan S2</p>
@@ -76,17 +76,17 @@ Sudah mempunyai beberapa orang yang pernah memakai kelas online ini</p>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
               <span class="icon flaticon-mortarboard"></span>
               <h3>Filosoofi Kami</h3>
-              <p>Tuntut lah ilmu sampai ke KELASCODE..</p>
+              <p>Tuntut lah ilmu sampai ke DeKADE COURSE..</p>
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
               <span class="icon flaticon-school-material"></span>
-              <h3>Prisnip KELASCODE</h3>
+              <h3>Prisnip DeKADE COURSE</h3>
               <p>Memberi kemudahan pada pelajar untuk memahami dan harga murah meriah..</p>
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
               <span class="icon flaticon-library"></span>
               <h3>Kunci Kesuksesan</h3>
-              <p>Mau bekal ilmu untuk Sukses? belajar di KELASCODE.</p>
+              <p>Mau bekal ilmu untuk Sukses? belajar di DeKADE COURSE.</p>
             </div>
           </div>
         </div>

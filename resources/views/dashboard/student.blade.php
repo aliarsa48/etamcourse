@@ -1,7 +1,7 @@
 @extends('layouts.templatestudent')
 
 @section('content')
-<title>Dashboard | KELASCODE</title>
+<title>Dashboard | DeKADE COURSE</title>
 <br>
         @include('sweet::alert')
         <!-- Static Table Start -->

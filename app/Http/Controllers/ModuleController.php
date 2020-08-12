@@ -21,7 +21,6 @@ class ModuleController extends Controller
 
     public function add($id) {
         $course = Course::find($id);
-
         return view('/dashboard/teacher/addmodule',compact('course'));
     }
 

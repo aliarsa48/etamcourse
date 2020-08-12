@@ -1,7 +1,7 @@
 @extends('layouts.templateteacher')
 
 @section('content')
-<title>Dashboard | KELASCODE</title>
+<title>Dashboard | DeKADE COURSE</title>
 <br>
         <!-- Static Table Start -->
         <div class="contacts-area mg-b-15">

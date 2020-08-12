@@ -1,7 +1,7 @@
 @extends('layouts.templateteacher')
 
 @section('content')
-<title>Edit Kelas | KELASCODE</title>
+<title>Edit Kelas | DeKADE COURSE</title>
 <br>
 <!-- content -->
 		

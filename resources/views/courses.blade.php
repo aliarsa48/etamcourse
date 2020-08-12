@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<head><title>Kelas | KELASCODE</title></head>
+<head><title>Kelas | DeKADE COURSE</title></head>
 @section('content')
 
     <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
@@ -61,7 +61,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
               <span class="icon flaticon-school-material"></span>
-              <h3>Prisnip KELASCODE</h3>
+              <h3>Prisnip DeKADE COURSE</h3>
               <p>Memberi kemudahan pada pelajar untuk memahami dan harga murah meriah.</p>
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">

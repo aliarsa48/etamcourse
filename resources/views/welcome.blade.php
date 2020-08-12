@@ -207,17 +207,17 @@
     <!--      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
     <!--        <span class="icon flaticon-mortarboard"></span>-->
     <!--        <h3>Filosofi Kami</h3>-->
-    <!--        <p>Tuntut lah ilmu sampai ke KELASCODE.</p>-->
+    <!--        <p>Tuntut lah ilmu sampai ke DeKADE COURSE.</p>-->
     <!--      </div>-->
     <!--      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
     <!--        <span class="icon flaticon-school-material"></span>-->
-    <!--        <h3>Prisnip KELASCODE</h3>-->
+    <!--        <h3>Prisnip DeKADE COURSE</h3>-->
     <!--        <p>Memberi kemudahan pada pelajar untuk memahami dan harga murah meriah.</p>-->
     <!--      </div>-->
     <!--      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
     <!--        <span class="icon flaticon-library"></span>-->
     <!--        <h3>Kunci Kesuksesan</h3>-->
-    <!--        <p>Mau bekal ilmu untuk Sukses? belajar di KELASCODE.</p>-->
+    <!--        <p>Mau bekal ilmu untuk Sukses? belajar di DeKADE COURSE.</p>-->
     <!--      </div>-->
     <!--    </div>-->
     <!--  </div>-->

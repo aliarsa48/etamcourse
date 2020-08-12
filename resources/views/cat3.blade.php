@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<head><title>Jaringan | KELASCODE</title></head>
+<head><title>Jaringan | DeKADE COURSE</title></head>
 @section('content')
 
     <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('/images/bg_1.jpg')">

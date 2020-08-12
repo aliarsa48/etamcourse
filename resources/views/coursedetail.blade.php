@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <head><title>
-{{$kursus->title}} | KELASCODE
+{{$kursus->title}} | DeKADE COURSE
 </title></head>
 @section('content')
 

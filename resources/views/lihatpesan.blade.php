@@ -1,7 +1,7 @@
 @extends('layouts.templateadmin')
 
 @section('content')
-<title>Kotak Pesan | KELASCODE</title>
+<title>Kotak Pesan | DeKADE COURSE</title>
 <br>
 
 <div class="data-table-area mg-b-15">

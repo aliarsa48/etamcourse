@@ -1,7 +1,7 @@
 @extends('layouts.templatestudent')
 
 @section('content')
-<title>Dashboard | KELASCODE</title>
+<title>Dashboard | DeKADE COURSE</title>
 
 <br>
         <div class="data-table-area mg-b-15" style="margin-top: -3px;">

@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- content -->
-<title>Perbarui Link | KELASCODE</title>
+<title>Perbarui Link | DeKADE COURSE</title>
 		
 <div class="basic-form-area mg-b-15 mg-t-15">
     <div class="container-fluid">

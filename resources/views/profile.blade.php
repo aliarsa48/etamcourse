@@ -1,6 +1,6 @@
 @extends('layouts.templateadmin')
 @section('content')
-<title>{{$profile->name}} | KELASCODE</title>
+<title>{{$profile->name}} | DeKADE COURSE</title>
 <br>
         <!-- Static Table Start -->
         <div class="contacts-area mg-b-15">

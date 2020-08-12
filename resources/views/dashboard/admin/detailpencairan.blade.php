@@ -1,7 +1,7 @@
 @extends('layouts.templateadmin')
 
 @section('content')
-<title>Pencairan | KELASCODE</title>
+<title>Pencairan | DeKADE COURSE</title>
 <br>
         <div class="data-table-area mg-b-15">
             <div class="container-fluid">

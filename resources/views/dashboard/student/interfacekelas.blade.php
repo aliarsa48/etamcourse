@@ -1,7 +1,7 @@
 @extends('layouts.templatestudent')
 
 @section('content')
-<title>{{$kelas->title}} | KELASCODE</title>
+<title>{{$kelas->title}} | DeKADE COURSE</title>
 <br>
         <div class="library-book-area mg-b-30">
             <div class="container-fluid">

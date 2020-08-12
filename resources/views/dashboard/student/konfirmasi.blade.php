@@ -1,7 +1,7 @@
 @extends('layouts.templateteacher')
 
 @section('content')
-<title>Konfirmasi | KELASCODE</title>
+<title>Konfirmasi | DeKADE COURSE</title>
 <br>
         <div class="data-table-area mg-b-15">
             <div class="container-fluid">
