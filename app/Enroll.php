@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Enroll extends Model
 {
-    protected $fillable = [
-        'course_id', 'student_id', 'kodeunik','kodetagihan','buktipembayaran','status'];
+    protected $guarded = [
+        'id', 'created_at', 'updated_at',
+    ];
 }

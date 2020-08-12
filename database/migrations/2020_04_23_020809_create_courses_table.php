@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Courses extends Migration
+class CreateCoursesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -25,8 +25,8 @@ class Courses extends Migration
             $table->date('end_date');
             $table->time('start_time');
             $table->time('end_time');
-            $table->integer('kuota', 3);
-            $table->integer('jumlahpertemuan', 3);
+            $table->tinyInteger('kuota');
+            $table->tinyInteger('jumlahpertemuan');
             $table->integer('price');
             $table->enum('status', array('active','non-active','expired','menunggu verifikasi'));
             $table->timestamps();
