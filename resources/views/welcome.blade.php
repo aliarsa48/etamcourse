@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<head><title>COURSENESIA</title></head>
+<head><title>DeKADE COURSE</title></head>
 @section('content')
 
     <div class="hero-slide owl-carousel site-blocks-cover">
@@ -7,7 +7,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-              <h1>Selamat Datang di COURSENESIA</h1>
+              <h1>Selamat Datang di DeKADE COURSE</h1>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@
         <div class="row justify-content-center text-center">
           <div class="col-lg-4 mb-5">
             <h2 class="section-title-underline">
-              <span>Mengapa COURSENESIA</span>
+              <span>Mengapa DeKADE COURSE</span>
             </h2>
           </div>
         </div>
@@ -105,11 +105,11 @@
         <div class="row">
           <div class="col-lg-4">
             <h2 class="section-title-underline style-2">
-              <span>Tentang COURSENESIA</span>
+              <span>Tentang DeKADE COURSE</span>
             </h2>
           </div>
           <div class="col-lg-8">
-            <p class="lead">COURSENESIA adalah adalah platform belajar online yang dikembangkan khusus untuk membantu kamu belajar coding dan lain lain lebih terarah</p>
+            <p class="lead">DeKADE COURSE adalah adalah platform belajar online yang dikembangkan khusus untuk membantu kamu belajar coding dan lain lain lebih terarah</p>
             <p><a href="{{'about'}}">Read more</a></p>
           </div>
         </div>
@@ -122,7 +122,7 @@
         <div class="row mb-5">
           <div class="col-lg-8">
             <h2 class="section-title-underline">
-              <span>Apa kata mereka tentang COURSENESIA?</span>
+              <span>Apa kata mereka tentang DeKADE COURSE?</span>
             </h2>
           </div>
         </div>
@@ -139,7 +139,7 @@
               </div>
             </div>
             <div>
-              <p>&ldquo;Jujur dari pengalaman saya sendiri. Setelah saya mengenal COURSENESIA dan ikut program belajarnya, saya ngerasa buang-buang duit ikut pelatihan programming di tempat lain selama ini. Setelah belajar di COURSENESIA saya terarah banget belajar programmingnya!&rdquo;</p>
+              <p>&ldquo;Jujur dari pengalaman saya sendiri. Setelah saya mengenal DeKADE COURSE dan ikut program belajarnya, saya ngerasa buang-buang duit ikut pelatihan programming di tempat lain selama ini. Setelah belajar di DeKADE COURSE saya terarah banget belajar programmingnya!&rdquo;</p>
             </div>
           </div>
 
@@ -152,7 +152,7 @@
               </div>
             </div>
             <div>
-              <p>Pengalaman belajar di kelas online COURSENESIA sangat baik dan mudah dipahami berkat khualitas video yang bagus dari segi grapic & audio!</p>
+              <p>Pengalaman belajar di kelas online DeKADE COURSE sangat baik dan mudah dipahami berkat khualitas video yang bagus dari segi grapic & audio!</p>
             </div>
           </div>
 
@@ -207,17 +207,17 @@
     <!--      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
     <!--        <span class="icon flaticon-mortarboard"></span>-->
     <!--        <h3>Filosofi Kami</h3>-->
-    <!--        <p>Tuntut lah ilmu sampai ke DeKADE COURSE.</p>-->
+    <!--        <p>Tuntut lah ilmu sampai ke .</p>-->
     <!--      </div>-->
     <!--      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
     <!--        <span class="icon flaticon-school-material"></span>-->
-    <!--        <h3>Prisnip DeKADE COURSE</h3>-->
+    <!--        <h3>Prisnip </h3>-->
     <!--        <p>Memberi kemudahan pada pelajar untuk memahami dan harga murah meriah.</p>-->
     <!--      </div>-->
     <!--      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
     <!--        <span class="icon flaticon-library"></span>-->
     <!--        <h3>Kunci Kesuksesan</h3>-->
-    <!--        <p>Mau bekal ilmu untuk Sukses? belajar di DeKADE COURSE.</p>-->
+    <!--        <p>Mau bekal ilmu untuk Sukses? belajar di .</p>-->
     <!--      </div>-->
     <!--    </div>-->
     <!--  </div>-->

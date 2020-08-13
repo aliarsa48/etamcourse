@@ -14,10 +14,17 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="">
                         <div class="courses-inner">
-                            <table class="">
-                                @foreach($judulbab as $j)
+                            <table class="" border="0" width="100%">
+                                @foreach($judulbab as $j=>$jb)
                                     <tr>
-                                        <td><a href="{{$j->id}}">{{$j->judul}}</a></td>
+                                        <td width='100%'><a href="{{$j+1}}">
+                                            <button class="btn btn-custon-four  
+                                                @if($idbab == $j+1)
+                                                    btn-success
+                                                @else
+                                                    btn-primary
+                                                @endif
+                                            " style="width: 100%; border:0; border-radius:0">{{$jb->judul}}</button></a></td>
                                     </tr>
                                 @endforeach
                             </table>
@@ -25,9 +32,15 @@
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" style="">
                         <div class="courses-inner">
+                            @if($idbab == 1)
+                            <a href="/student/courses/{{$course->id}}/module/{{$z+1}}"><button class="btn btn-primary" style="margin-bottom: 5px; float: right">Bab Selanjutnya</button></a>
+                            @elseif($idbab == $terakhir)
+                            <a href="/student/courses/{{$course->id}}/module/{{$z-1}}"><button class="btn btn-primary" style="margin-bottom: 5px; float: left">Bab Sebelumnya</button></a>
+                            @else
                             <a href="/student/courses/{{$course->id}}/module/{{$z-1}}"><button class="btn btn-primary" style="margin-bottom: 5px; float: left">Bab Sebelumnya</button></a>
                             <a href="/student/courses/{{$course->id}}/module/{{$z+1}}"><button class="btn btn-primary" style="margin-bottom: 5px; float: right">Bab Selanjutnya</button></a>
-                        <iframe src="/module/{{$pagebab[$i+1]['filemodule']}}" frameborder="0" style="height:450px; width: 100%"></iframe>
+                            @endif
+                            <iframe src="/module/{{$pagebab[$i+1]['filemodule']}}" frameborder="0" style="height:450px; width: 100%"></iframe>
                         </div>
                     </div>
 

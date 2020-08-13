@@ -192,7 +192,7 @@
         <div class="row">
           <div class="col-lg-5">
             <p class="mb-4"><img src="/images/coursenesiaori.png" width="60%" alt="Image" class="img-fluid"></p>
-            <p>Ilmu pengetahuan itu ada dimana saja, dan tidak selalu ada di sekolah, asalkan kamu ingin belajar, maka kamu bisa mempelajari segala hal baru yang belum pernah kamu temukan. COURSENESIA merupakan salah satu kelas online untuk mendapatkan ilmu pengetahuan dan mengembangkan kemampuan kalian</p>  
+            <p>Ilmu pengetahuan itu ada dimana saja, dan tidak selalu ada di sekolah, asalkan kamu ingin belajar, maka kamu bisa mempelajari segala hal baru yang belum pernah kamu temukan. DeKADE COURSE merupakan salah satu kelas online untuk mendapatkan ilmu pengetahuan dan mengembangkan kemampuan kalian</p>  
             <p><a href="#">Belajarlah lagi</a></p>
           </div>
 
@@ -231,7 +231,7 @@
             <div class="copyright">
                 <p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> COURSENESIA  |  Ali Arsa dan Fahrul Fahrozi  |  <i  aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> DeKADE COURSE | <i  aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank" >Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
             </div>

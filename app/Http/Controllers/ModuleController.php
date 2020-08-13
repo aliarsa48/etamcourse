@@ -101,24 +101,23 @@ class ModuleController extends Controller
     }
 
     public function firstpage($id) {
-        $course = Course::where('id','=',$id)->first();
-        $judulbab = Module::where('course_id',$id)->get();
-        $f = $judulbab[0]->id;
-        //$idbab = $judulbab->id;
-        //$idbab = Module::where('id','=',$idbab)->get();
-        //$module = Module::where('id','=',$idbab)->get();
-        //return $array[2];
-        return redirect('/student/courses/'.$course->id.'/module/1');
+        // $course = Course::where('id','=',$id)->first();
+        // $judulbab = Module::where('course_id',$id)->get();
+        //$f = $judulbab[0]->id;
+        // return json_encode($judulbab[0]);
+        return redirect('/student/courses/'.$id.'/module/1');
     }
 
-    public function openmodule($id, $bab) {
+    public function openmodule($id, $idbab) {
         $course = Course::where('id','=',$id)->first();
         $judulbab = Module::where('course_id',$id)->get();
         $pagebab = $judulbab->toArray();
         $jumlahbab = count($pagebab);
-        $z = $bab;
-        $i = $bab-2;
+        $z = $idbab;
+        $i = $idbab-2;
+        $terakhir = count($judulbab);
+        //return $terakhir;
         // $index = $pagebab[$i]['id'];
-        return view('/dashboard/student/module',compact('course','judulbab','pagebab','jumlahbab','z','i'))->with('no',1);
+        return view('/dashboard/student/module',compact('course','judulbab','pagebab','jumlahbab','z','i','idbab','terakhir'))->with('no',1);
     }
 }
